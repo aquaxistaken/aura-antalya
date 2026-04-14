@@ -69,7 +69,7 @@ export default function ProductCard({ product }: { product: any }) {
 
             {/* İnce Çizgi Göstergeler (Dots) */}
             <div className="absolute bottom-6 z-20 flex space-x-1.5">
-              {imageList.map((_, index) => (
+            {imageList.map((_: string, index: number) => (
                 <button
                   key={index}
                   onClick={() => setCurrentImageIndex(index)}
