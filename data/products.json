@@ -92,7 +92,7 @@
     "id": "terea-teak",
     "category": "cartridge",
     "images": [
-      "/images/terea1.png"
+      "/images/Teak.png"
     ],
     "aromas": ["🌰 Fındık", "🥜 Ceviz", "☕ Kavrulmuş"],
     "tr": {
@@ -204,7 +204,7 @@
     "id": "terea-summer",
     "category": "cartridge",
     "images": [
-      "/images/yaz.png"
+      "/images/Summer.png"
     ],
     "aromas": ["🍑 Şeftali", "☀️ Yaz Esintisi", "❄️ Hafif Serinlik"],
     "tr": {
@@ -316,7 +316,7 @@
     "id": "terea-provence-pearl",
     "category": "cartridge",
     "images": [
-      "/images/terea2.png"
+      "/images/Provence.png"
     ],
     "aromas": ["🍇 Üzüm", "❄️ Serinletici", "🔘 Pearl Kapsül"],
     "tr": {
@@ -332,7 +332,7 @@
     "id": "terea-oasis-pearl",
     "category": "cartridge",
     "images": [
-      "/images/terea3.png"
+      "/images/Oasis.png"
     ],
     "aromas": ["🍍 Tropikal Meyve", "🥥 Egzotik", "🔘 Pearl Kapsül"],
     "tr": {
