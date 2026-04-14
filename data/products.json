@@ -1,0 +1,322 @@
+[
+  {
+    "id": "iluma-prime",
+    "category": "device",
+    "images": [
+      "/images/ilumaiprime.PNG",
+      "/images/ilumaiprime2.PNG"
+    ],
+    "tr": {
+      "name": "IQOS Iluma Prime",
+      "description": "Zarif alüminyum gövde, deri detaylar ve devrim yaratan Smartcore indüksiyon teknolojisi. Kül yok, temizlik derdi yok."
+    },
+    "en": {
+      "name": "IQOS Iluma Prime",
+      "description": "Elegant aluminum body, leather details, and revolutionary Smartcore induction technology. No ash, no cleaning."
+    }
+  },
+  {
+    "id": "iluma-one",
+    "category": "device",
+    "images": [
+      "/images/ilumaione.PNG",
+      "/images/ilumaione2.PNG"
+    ],
+    "tr": {
+      "name": "IQOS Iluma One",
+      "description": "Kompakt, hepsi bir arada tasarım. Tek şarjla 20 kullanıma kadar kesintisiz ve pratik premium deneyim."
+    },
+    "en": {
+      "name": "IQOS Iluma One",
+      "description": "Compact, all-in-one design. Seamless and practical premium experience with up to 20 uses on a single charge."
+    }
+  },
+  {
+    "id": "iluma-i",
+    "category": "device",
+    "images": [
+      "/images/ilumai1.PNG",
+      "/images/ilumai2.PNG"
+    ],
+    "tr": {
+      "name": "IQOS Iluma I",
+      "description": "Yenilikçi dokunmatik ekran ve duraklatma özelliği. Isıtma teknolojisinde yeni bir çağın başlangıcı."
+    },
+    "en": {
+      "name": "IQOS Iluma I",
+      "description": "Innovative touch screen and pause feature. The dawn of a new era in heating technology."
+    }
+  },
+  {
+    "id": "terea-russet",
+    "category": "cartridge",
+    "images": [
+      "/images/russet.WEBP"
+    ],
+    "tr": {
+      "name": "Terea Russet",
+      "description": "Yoğun ve malt notalarına sahip, en güçlü ve dolgun tütün harmanı."
+    },
+    "en": {
+      "name": "Terea Russet",
+      "description": "A robust and full-bodied tobacco blend with rich malty notes."
+    }
+  },
+  {
+    "id": "terea-sienna",
+    "category": "cartridge",
+    "images": [
+      "/images/sienna.WEBP"
+      
+    ],
+    "tr": {
+      "name": "Terea Sienna",
+      "description": "Yoğun ve doyurucu bir deneyim arayanlar için odunsu ve hafif çay notaları barındıran zengin tütün."
+    },
+    "en": {
+      "name": "Terea Sienna",
+      "description": "Rich tobacco with woody and light tea notes for those seeking an intense and satisfying experience."
+    }
+  },
+  {
+    "id": "terea-teak",
+    "category": "cartridge",
+    "images": [
+      "/images/teak.WEBP"
+    ],
+    "tr": {
+      "name": "Terea Teak",
+      "description": "Yuvarlak içimli, kavrulmuş fındık ve ceviz notaları barındıran zengin ve dengeli tütün."
+    },
+    "en": {
+      "name": "Terea Teak",
+      "description": "A rounded, balanced tobacco blend featuring roasted nutty notes."
+    }
+  },
+  {
+    "id": "terea-amber",
+    "category": "cartridge",
+    "images": [
+      "/images/amber.PNG"
+    ],
+    "tr": {
+      "name": "Terea Amber",
+      "description": "Özenle kavrulmuş tütün harmanı ve hafif odunsu notalarla zenginleştirilmiş dengeli içim."
+    },
+    "en": {
+      "name": "Terea Amber",
+      "description": "A balanced smoke enriched with a carefully roasted tobacco blend and light woody notes."
+    }
+  },
+  {
+    "id": "terea-yellow",
+    "category": "cartridge",
+    "images": [
+      "/images/yellow.PNG"
+    ],
+    "tr": {
+      "name": "Terea Yellow",
+      "description": "Canlandırıcı narenciye notalarıyla harmanlanmış, hafif ve yumuşak tütün deneyimi."
+    },
+    "en": {
+      "name": "Terea Yellow",
+      "description": "A mild and smooth tobacco experience blended with zesty citrus notes."
+    }
+  },
+  {
+    "id": "terea-silver",
+    "category": "cartridge",
+    "images": [
+      "/images/silver.PNG"
+    ],
+    "tr": {
+      "name": "Terea Silver",
+      "description": "Zarif ve çok hafif bir içim sunan, özenle kavrulmuş rafine tütün harmanı."
+    },
+    "en": {
+      "name": "Terea Silver",
+      "description": "A carefully toasted, refined tobacco blend offering a very light and elegant experience."
+    }
+  },
+  {
+    "id": "terea-blue",
+    "category": "cartridge",
+    "images": [
+      "/images/blue.PNG"
+    ],
+    "tr": {
+      "name": "Terea Blue",
+      "description": "Derin ve yoğun bir nane ferahlığı sunan ekstra serinletici mentol deneyimi."
+    },
+    "en": {
+      "name": "Terea Blue",
+      "description": "An extra cooling menthol experience offering deep and intense minty freshness."
+    }
+  },
+  {
+    "id": "terea-green",
+    "category": "cartridge",
+    "images": [
+      "/images/green.PNG"
+    ],
+    "tr": {
+      "name": "Terea Green",
+      "description": "Dengeli tütün harmanının serinletici nane dokunuşuyla mükemmel uyumu."
+    },
+    "en": {
+      "name": "Terea Green",
+      "description": "The perfect harmony of a balanced tobacco blend with a cooling mint touch."
+    }
+  },
+  {
+    "id": "terea-purple",
+    "category": "cartridge",
+    "images": [
+      "/images/purple.PNG"
+    ],
+    "tr": {
+      "name": "Terea Purple",
+      "description": "Orman meyvelerinin tatlı aroması ile taze mentolün ferahlatıcı buluşması."
+    },
+    "en": {
+      "name": "Terea Purple",
+      "description": "A refreshing encounter of sweet forest berry aromas and fresh menthol."
+    }
+  },
+  {
+    "id": "terea-summer",
+    "category": "cartridge",
+    "images": [
+      "/images/summer.png"
+    ],
+    "tr": {
+      "name": "Terea Summer",
+      "description": "Taze şeftali aroması ve hafif serinletici dokunuşlarla yaz esintisi hissi."
+    },
+    "en": {
+      "name": "Terea Summer",
+      "description": "A summer breeze feeling with fresh peach aroma and light cooling touches."
+    }
+  },
+  {
+    "id": "terea-tidal-pearl",
+    "category": "cartridge",
+    "images": [
+      "/images/tıdal.PNG"
+    ],
+    "tr": {
+      "name": "Terea Tidal Pearl",
+      "description": "Canlandırıcı narenciye aromaları ve ince nüanslara sahip taze bir harman."
+    },
+    "en": {
+      "name": "Terea Tidal Pearl",
+      "description": "A fresh blend with subtle nuances and zesty citrus flavors."
+    }
+  },
+  {
+    "id": "terea-turquoise",
+    "category": "cartridge",
+    "images": [
+      "/images/turkuaz.PNG"
+      
+    ],
+    "tr": {
+      "name": "Terea Turquoise",
+      "description": "Ferahlatıcı mentol dokunuşuyla harmanlanmış, pürüzsüz ve serinletici hafif tütün."
+    },
+    "en": {
+      "name": "Terea Turquoise",
+      "description": "Smooth and cooling light tobacco blended with a refreshing touch of menthol."
+    }
+  },
+  {
+    "id": "terea-twilight-pearl",
+    "category": "cartridge",
+    "images": [
+      "/images/twilight.PNG"
+    ],
+    "tr": {
+      "name": "Terea Twilight Pearl",
+      "description": "Kapsülü patlattığınızda açığa çıkan taze yaban mersini aroması ve derin mentol ferahlığı."
+    },
+    "en": {
+      "name": "Terea Twilight Pearl",
+      "description": "Fresh blueberry flavor and deep menthol coolness released with a single click."
+    }
+  },
+  {
+    "id": "terea-sun-pearl",
+    "category": "cartridge",
+    "images": [
+      "/images/sun.PNG"
+    ],
+    "tr": {
+      "name": "Terea Sun Pearl",
+      "description": "Kapsülü patlattığınızda açığa çıkan sulu karpuz aroması ve serinletici mentol uyumu."
+    },
+    "en": {
+      "name": "Terea Sun Pearl",
+      "description": "Juicy watermelon flavor and cooling menthol harmony released on a click."
+    }
+  },
+  {
+    "id": "terea-abora-pearl",
+    "category": "cartridge",
+    "images": [
+      "/images/abora.WEBP"
+    ],
+    "tr": {
+      "name": "Terea Abora Pearl",
+      "description": "Kapsülü patlattığınızda açığa çıkan gevrek yeşil elma aroması ve ferahlatıcı mentol."
+    },
+    "en": {
+      "name": "Terea Abora Pearl",
+      "description": "Crisp green apple flavor and refreshing menthol unlocked with a click."
+    }
+  },
+  {
+    "id": "terea-starling-pearl",
+    "category": "cartridge",
+    "images": [
+      "/images/starling.PNG"
+    ],
+    "tr": {
+      "name": "Terea Starling Pearl",
+      "description": "Kapsülü patlattığınızda açığa çıkan çilek, taze fesleğen ve mentolün sıra dışı uyumu."
+    },
+    "en": {
+      "name": "Terea Starling Pearl",
+      "description": "A unique blend of strawberry, fresh basil, and menthol released on a click."
+    }
+  },
+  {
+    "id": "terea-provence-pearl",
+    "category": "cartridge",
+    "images": [
+      "/images/provence.png"
+    ],
+    "tr": {
+      "name": "Terea Provence Pearl",
+      "description": "Kapsülü patlattığınızda açığa çıkan zengin üzüm aroması ve serinletici mentol etkisi."
+    },
+    "en": {
+      "name": "Terea Provence Pearl",
+      "description": "Rich grape aroma and cooling menthol effect activated with a single click."
+    }
+  },
+  {
+    "id": "terea-oasis-pearl",
+    "category": "cartridge",
+    "images": [
+      "/images/oasis.png"
+    ],
+    "tr": {
+      "name": "Terea Oasis Pearl",
+      "description": "Kapsülü patlattığınızda açığa çıkan egzotik tropikal meyveler ve ferahlatıcı mentol."
+    },
+    "en": {
+      "name": "Terea Oasis Pearl",
+      "description": "Exotic tropical fruits and refreshing menthol unleashed with a click."
+    }
+  }
+]
