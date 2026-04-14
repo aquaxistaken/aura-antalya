@@ -6,11 +6,13 @@ import Image from "next/image";
 export default function Hero() {
   const { language } = useLanguage();
   const [currentSlide, setCurrentSlide] = useState(0);
+  const [touchStart, setTouchStart] = useState(0); // Kaydırma için başlangıç noktası
 
-  // Slaytta dönecek olan 3 ana kategori
+  // Slaytta dönecek olan 3 ana kategori ve hedefleri (target) eklendi
   const slides = [
     {
       id: "devices",
+      target: "device", // Cihazlara yönlendirir
       image: "/images/ıqoslayt.png", 
       tr: { 
         tag: "YENİ NESİL DENEYİM",
@@ -25,6 +27,7 @@ export default function Hero() {
     },
     {
       id: "terea",
+      target: "cartridge", // Terea ve Heets bölümüne yönlendirir
       image: "/images/tereaslayt.png",
       tr: { 
         tag: "SMARTCORE İNDÜKSİYON",
@@ -39,6 +42,7 @@ export default function Hero() {
     },
     {
       id: "heets",
+      target: "cartridge", // Terea ve Heets bölümüne yönlendirir
       image: "/images/heetslayt.png",
       tr: { 
         tag: "ZAMANSIZ KLASİK",
@@ -53,21 +57,49 @@ export default function Hero() {
     }
   ];
 
-  // Slaytın her 4 saniyede bir otomatik dönmesini sağlayan sistem
+  // Otomatik dönme sistemi
   useEffect(() => {
     const timer = setInterval(() => {
       setCurrentSlide((prev) => (prev === slides.length - 1 ? 0 : prev + 1));
-    }, 4000); // 4000 milisaniye = 4 saniye
+    }, 4000);
     return () => clearInterval(timer);
   }, [slides.length]);
 
+  // --- YENİ: Dokunmatik Kaydırma (Swipe) Mantığı ---
+  const handleTouchStart = (e: React.TouchEvent) => setTouchStart(e.targetTouches[0].clientX);
+  const handleTouchEnd = (e: React.TouchEvent) => {
+    const touchEnd = e.changedTouches[0].clientX;
+    if (touchStart - touchEnd > 70) {
+      // Sola kaydırma
+      setCurrentSlide((prev) => (prev === slides.length - 1 ? 0 : prev + 1));
+    }
+    if (touchStart - touchEnd < -70) {
+      // Sağa kaydırma
+      setCurrentSlide((prev) => (prev === 0 ? slides.length - 1 : prev - 1));
+    }
+  };
+
+  // --- YENİ: Tıklayınca İlgili Kategoriye Yönlendirme ---
+  const handleSlideClick = (targetCategory: string) => {
+    window.location.hash = targetCategory; // Galerinin filtreyi anlaması için
+    const element = document.getElementById("product-gallery");
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
-    <section className="relative w-full h-[60vh] md:h-[70vh] flex flex-col items-center justify-center overflow-hidden bg-[#F5F5F7]">
+    <section 
+      className="relative w-full h-[60vh] md:h-[70vh] flex flex-col items-center justify-center overflow-hidden bg-[#F5F5F7] cursor-pointer touch-pan-y"
+      onTouchStart={handleTouchStart}
+      onTouchEnd={handleTouchEnd}
+      onClick={() => handleSlideClick(slides[currentSlide].target)}
+    >
       
       {/* Slayt İçerikleri */}
       {slides.map((slide, index) => {
         const isActive = currentSlide === index;
-        const currentData = slide[language];
+        const currentData = slide[language] || slide["tr"];
 
         return (
           <div 
@@ -77,11 +109,11 @@ export default function Hero() {
             }`}
           >
             {/* Metin Alanı */}
-            <div className="w-full md:w-1/2 flex flex-col items-center md:items-start text-center md:text-left mt-10 md:mt-0 z-20">
+            <div className="w-full md:w-1/2 flex flex-col items-center md:items-start text-center md:text-left mt-10 md:mt-0 z-20 pointer-events-none">
               <h2 className="text-[9px] md:text-[11px] font-semibold tracking-[0.3em] text-zinc-500 uppercase mb-4">
                 {currentData.tag}
               </h2>
-              <h1 className="text-3xl md:text-5xl font-black tracking-[0.15em] uppercase text-black mb-4">
+              <h1 className="text-3xl md:text-5xl font-black tracking-[0.15em] uppercase text-black mb-4 drop-shadow-sm">
                 {currentData.title}
               </h1>
               <p className="text-xs md:text-sm text-zinc-500 font-light tracking-wide max-w-sm">
@@ -110,7 +142,10 @@ export default function Hero() {
         {slides.map((_, index) => (
           <button
             key={index}
-            onClick={() => setCurrentSlide(index)}
+            onClick={(e) => {
+              e.stopPropagation(); // Noktalara tıklayınca aşağı kaydırmayı engellemek için
+              setCurrentSlide(index);
+            }}
             className={`h-[2px] transition-all duration-500 rounded-full ${
               currentSlide === index ? "w-8 bg-black" : "w-3 bg-black/20 hover:bg-black/40"
             }`}

@@ -1,33 +1,28 @@
-import Header from "../components/Header";
-import Hero from "../components/Hero";
-import ProductGallery from "../components/ProductGallery";
-import FloatingWhatsApp from "../components/FloatingWhatsApp"; 
+import Hero from "@/components/Hero";
+import TrustBar from "@/components/TrustBar";
+import ProductGallery from "@/components/ProductGallery";
+import Footer from "@/components/Footer";
+import WhatsAppContact from "@/components/FloatingWhatsApp";
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-white font-sans selection:bg-black selection:text-white flex flex-col items-center relative">
+    <main className="min-h-screen bg-black">
+      {/* 1. Slayt Alanı */}
+      <Hero />
       
-      {/* Üst Menü - Sayfayı kaydırdıkça üstte şeffaf bir şekilde asılı kalır (Sticky + Blur) */}
-      <div className="sticky top-0 z-50 w-full bg-white/80 backdrop-blur-md border-b border-zinc-100">
-        <Header />
+      {/* 2. Güven Barı */}
+      <TrustBar />
+      
+      {/* 3. Ana Ürün Galerisi (Butonlar ve Filtreleme Burada) */}
+      <div className="max-w-7xl mx-auto px-4 py-20">
+        <ProductGallery />
       </div>
 
-      {/* Dönen Karşılama Ekranı (Animasyonlu Hero Section) */}
-      <Hero />
-
-      {/* Kategoriler ve Filtrelenebilir Ürün Vitrini (Grid Düzeni) */}
-      <ProductGallery />
+      {/* 4. Alt Bilgi */}
+      <Footer />
       
-      {/* Minimalist Footer (Alt Bilgi) */}
-      <footer className="w-full py-12 text-center border-t border-zinc-100 mt-12">
-        <p className="text-[10px] text-zinc-400 uppercase tracking-widest">
-          © {new Date().getFullYear()} AURA. Sadece Yetişkinler İçindir.
-        </p>
-      </footer>
-
-      {/* Sağ Altta Sabit Kalan Yüzen WhatsApp Butonu */}
-      <FloatingWhatsApp />
-
+      {/* 5. WhatsApp İletişim */}
+      <WhatsAppContact />
     </main>
   );
 }

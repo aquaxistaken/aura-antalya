@@ -3,9 +3,12 @@
     "id": "iluma-prime",
     "category": "device",
     "images": [
-      "/images/ilumaiprime.PNG",
-      "/images/ilumaiprime2.PNG"
+      "/images/iqosilumaprimeacıkmavi.avif",
+      "/images/iqosilumaprimebronz.avif",
+      "/images/iqosilumaprimesiyah.avif",
+      "/images/iqosilumaprimeyesil.avif"
     ],
+    "aromas": ["✨ Smartcore", "🛡️ Alüminyum Gövde", "🧼 Temizlik Derdi Yok"],
     "tr": {
       "name": "IQOS Iluma Prime",
       "description": "Zarif alüminyum gövde, deri detaylar ve devrim yaratan Smartcore indüksiyon teknolojisi. Kül yok, temizlik derdi yok."
@@ -19,9 +22,13 @@
     "id": "iluma-one",
     "category": "device",
     "images": [
-      "/images/ilumaione.PNG",
-      "/images/ilumaione2.PNG"
+      "/images/iqosilumaonegold.png",
+      "/images/iqosilumaonemavi.png",
+      "/images/iqosilumaonepembe.png",
+      "/images/iqosilumaonesiyah.png",
+      "/images/iqosilumaoneyesil.png"
     ],
+    "aromas": ["🔋 20 Kullanım", "🚀 Hepsi Bir Arada", "🎒 Kompakt"],
     "tr": {
       "name": "IQOS Iluma One",
       "description": "Kompakt, hepsi bir arada tasarım. Tek şarjla 20 kullanıma kadar kesintisiz ve pratik premium deneyim."
@@ -35,9 +42,11 @@
     "id": "iluma-i",
     "category": "device",
     "images": [
-      "/images/ilumai1.PNG",
-      "/images/ilumai2.PNG"
+      "/images/iqosilumaimavi.avif",
+      "/images/iqosilumaisiyah.avif",
+      "/images/iqosilumaituruncu.avif"
     ],
+    "aromas": ["👆 Dokunmatik Ekran", "⏸️ Duraklatma", "🌟 Yenilikçi"],
     "tr": {
       "name": "IQOS Iluma I",
       "description": "Yenilikçi dokunmatik ekran ve duraklatma özelliği. Isıtma teknolojisinde yeni bir çağın başlangıcı."
@@ -53,6 +62,7 @@
     "images": [
       "/images/russet.WEBP"
     ],
+    "aromas": ["💪 Güçlü Tütün", "🌾 Malt Notaları", "🔥 Yoğun"],
     "tr": {
       "name": "Terea Russet",
       "description": "Yoğun ve malt notalarına sahip, en güçlü ve dolgun tütün harmanı."
@@ -67,8 +77,8 @@
     "category": "cartridge",
     "images": [
       "/images/sienna.WEBP"
-      
     ],
+    "aromas": ["🪵 Odunsu", "🍵 Çay Notaları", "🍂 Zengin"],
     "tr": {
       "name": "Terea Sienna",
       "description": "Yoğun ve doyurucu bir deneyim arayanlar için odunsu ve hafif çay notaları barındıran zengin tütün."
@@ -84,6 +94,7 @@
     "images": [
       "/images/teak.WEBP"
     ],
+    "aromas": ["🌰 Fındık", "🥜 Ceviz", "☕ Kavrulmuş"],
     "tr": {
       "name": "Terea Teak",
       "description": "Yuvarlak içimli, kavrulmuş fındık ve ceviz notaları barındıran zengin ve dengeli tütün."
@@ -99,6 +110,7 @@
     "images": [
       "/images/amber.PNG"
     ],
+    "aromas": ["🪵 Odunsu", "🍂 Dengeli", "☕ Kavrulmuş"],
     "tr": {
       "name": "Terea Amber",
       "description": "Özenle kavrulmuş tütün harmanı ve hafif odunsu notalarla zenginleştirilmiş dengeli içim."
@@ -114,6 +126,7 @@
     "images": [
       "/images/yellow.PNG"
     ],
+    "aromas": ["🍋 Narenciye", "🌤️ Hafif İçim", "🍃 Yumuşak"],
     "tr": {
       "name": "Terea Yellow",
       "description": "Canlandırıcı narenciye notalarıyla harmanlanmış, hafif ve yumuşak tütün deneyimi."
@@ -129,6 +142,7 @@
     "images": [
       "/images/silver.PNG"
     ],
+    "aromas": ["☁️ Çok Hafif", "🕊️ Zarif", "✨ Rafine"],
     "tr": {
       "name": "Terea Silver",
       "description": "Zarif ve çok hafif bir içim sunan, özenle kavrulmuş rafine tütün harmanı."
@@ -144,6 +158,7 @@
     "images": [
       "/images/blue.PNG"
     ],
+    "aromas": ["❄️ Ekstra Mentol", "🌿 Yoğun Nane", "🧊 Serinletici"],
     "tr": {
       "name": "Terea Blue",
       "description": "Derin ve yoğun bir nane ferahlığı sunan ekstra serinletici mentol deneyimi."
@@ -159,6 +174,7 @@
     "images": [
       "/images/green.PNG"
     ],
+    "aromas": ["🌿 Nane", "🍃 Dengeli", "❄️ Serinletici"],
     "tr": {
       "name": "Terea Green",
       "description": "Dengeli tütün harmanının serinletici nane dokunuşuyla mükemmel uyumu."
@@ -174,6 +190,7 @@
     "images": [
       "/images/purple.PNG"
     ],
+    "aromas": ["🫐 Orman Meyvesi", "❄️ Mentol", "🍇 Tatlı"],
     "tr": {
       "name": "Terea Purple",
       "description": "Orman meyvelerinin tatlı aroması ile taze mentolün ferahlatıcı buluşması."
@@ -189,6 +206,7 @@
     "images": [
       "/images/summer.png"
     ],
+    "aromas": ["🍑 Şeftali", "☀️ Yaz Esintisi", "❄️ Hafif Serinlik"],
     "tr": {
       "name": "Terea Summer",
       "description": "Taze şeftali aroması ve hafif serinletici dokunuşlarla yaz esintisi hissi."
@@ -204,6 +222,7 @@
     "images": [
       "/images/tıdal.PNG"
     ],
+    "aromas": ["🍋 Narenciye", "🔘 Pearl Kapsül", "🌊 Taze"],
     "tr": {
       "name": "Terea Tidal Pearl",
       "description": "Canlandırıcı narenciye aromaları ve ince nüanslara sahip taze bir harman."
@@ -218,8 +237,8 @@
     "category": "cartridge",
     "images": [
       "/images/turkuaz.PNG"
-      
     ],
+    "aromas": ["🧊 Ferah Mentol", "🍃 Hafif Tütün", "🌬️ Pürüzsüz"],
     "tr": {
       "name": "Terea Turquoise",
       "description": "Ferahlatıcı mentol dokunuşuyla harmanlanmış, pürüzsüz ve serinletici hafif tütün."
@@ -235,6 +254,7 @@
     "images": [
       "/images/twilight.PNG"
     ],
+    "aromas": ["🫐 Yaban Mersini", "❄️ Derin Mentol", "🔘 Pearl Kapsül"],
     "tr": {
       "name": "Terea Twilight Pearl",
       "description": "Kapsülü patlattığınızda açığa çıkan taze yaban mersini aroması ve derin mentol ferahlığı."
@@ -250,6 +270,7 @@
     "images": [
       "/images/sun.PNG"
     ],
+    "aromas": ["🍉 Karpuz", "❄️ Serinletici", "🔘 Pearl Kapsül"],
     "tr": {
       "name": "Terea Sun Pearl",
       "description": "Kapsülü patlattığınızda açığa çıkan sulu karpuz aroması ve serinletici mentol uyumu."
@@ -265,6 +286,7 @@
     "images": [
       "/images/abora.WEBP"
     ],
+    "aromas": ["🍏 Yeşil Elma", "❄️ Ferah Mentol", "🔘 Pearl Kapsül"],
     "tr": {
       "name": "Terea Abora Pearl",
       "description": "Kapsülü patlattığınızda açığa çıkan gevrek yeşil elma aroması ve ferahlatıcı mentol."
@@ -280,6 +302,7 @@
     "images": [
       "/images/starling.PNG"
     ],
+    "aromas": ["🍓 Çilek", "🌿 Fesleğen", "🔘 Pearl Kapsül"],
     "tr": {
       "name": "Terea Starling Pearl",
       "description": "Kapsülü patlattığınızda açığa çıkan çilek, taze fesleğen ve mentolün sıra dışı uyumu."
@@ -295,6 +318,7 @@
     "images": [
       "/images/provence.png"
     ],
+    "aromas": ["🍇 Üzüm", "❄️ Serinletici", "🔘 Pearl Kapsül"],
     "tr": {
       "name": "Terea Provence Pearl",
       "description": "Kapsülü patlattığınızda açığa çıkan zengin üzüm aroması ve serinletici mentol etkisi."
@@ -310,6 +334,7 @@
     "images": [
       "/images/oasis.png"
     ],
+    "aromas": ["🍍 Tropikal Meyve", "🥥 Egzotik", "🔘 Pearl Kapsül"],
     "tr": {
       "name": "Terea Oasis Pearl",
       "description": "Kapsülü patlattığınızda açığa çıkan egzotik tropikal meyveler ve ferahlatıcı mentol."
