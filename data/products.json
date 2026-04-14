@@ -5,8 +5,8 @@
     "images": [
       "/images/iqosilumaprimeacıkmavi.avif",
       "/images/iqosilumaprimebronz.avif",
-      "/images/iqosilumaprimesiyah.avif",
-      "/images/iqosilumaprimeyesil.avif"
+      "/images/iqosilumaprimesiyah.avif"
+
     ],
     "aromas": ["✨ Smartcore", "🛡️ Alüminyum Gövde", "🧼 Temizlik Derdi Yok"],
     "tr": {
@@ -60,7 +60,7 @@
     "id": "terea-russet",
     "category": "cartridge",
     "images": [
-      "/images/russet.WEBP"
+      "/images/russet.png"
     ],
     "aromas": ["💪 Güçlü Tütün", "🌾 Malt Notaları", "🔥 Yoğun"],
     "tr": {
@@ -76,7 +76,7 @@
     "id": "terea-sienna",
     "category": "cartridge",
     "images": [
-      "/images/sienna.WEBP"
+      "/images/sienna.png"
     ],
     "aromas": ["🪵 Odunsu", "🍵 Çay Notaları", "🍂 Zengin"],
     "tr": {
@@ -92,7 +92,7 @@
     "id": "terea-teak",
     "category": "cartridge",
     "images": [
-      "/images/teak.WEBP"
+      "/images/teak.webp"
     ],
     "aromas": ["🌰 Fındık", "🥜 Ceviz", "☕ Kavrulmuş"],
     "tr": {
@@ -108,7 +108,7 @@
     "id": "terea-amber",
     "category": "cartridge",
     "images": [
-      "/images/amber.PNG"
+      "/images/amber.png"
     ],
     "aromas": ["🪵 Odunsu", "🍂 Dengeli", "☕ Kavrulmuş"],
     "tr": {
@@ -124,7 +124,7 @@
     "id": "terea-yellow",
     "category": "cartridge",
     "images": [
-      "/images/yellow.PNG"
+      "/images/yellow.png"
     ],
     "aromas": ["🍋 Narenciye", "🌤️ Hafif İçim", "🍃 Yumuşak"],
     "tr": {
@@ -140,7 +140,7 @@
     "id": "terea-silver",
     "category": "cartridge",
     "images": [
-      "/images/silver.PNG"
+      "/images/silver.png"
     ],
     "aromas": ["☁️ Çok Hafif", "🕊️ Zarif", "✨ Rafine"],
     "tr": {
@@ -156,7 +156,7 @@
     "id": "terea-blue",
     "category": "cartridge",
     "images": [
-      "/images/blue.PNG"
+      "/images/blue.png"
     ],
     "aromas": ["❄️ Ekstra Mentol", "🌿 Yoğun Nane", "🧊 Serinletici"],
     "tr": {
@@ -172,7 +172,7 @@
     "id": "terea-green",
     "category": "cartridge",
     "images": [
-      "/images/green.PNG"
+      "/images/green.png"
     ],
     "aromas": ["🌿 Nane", "🍃 Dengeli", "❄️ Serinletici"],
     "tr": {
@@ -188,7 +188,7 @@
     "id": "terea-purple",
     "category": "cartridge",
     "images": [
-      "/images/purple.PNG"
+      "/images/purple.png"
     ],
     "aromas": ["🫐 Orman Meyvesi", "❄️ Mentol", "🍇 Tatlı"],
     "tr": {
@@ -220,7 +220,7 @@
     "id": "terea-tidal-pearl",
     "category": "cartridge",
     "images": [
-      "/images/tıdal.PNG"
+      "/images/tıdal.png"
     ],
     "aromas": ["🍋 Narenciye", "🔘 Pearl Kapsül", "🌊 Taze"],
     "tr": {
@@ -236,7 +236,7 @@
     "id": "terea-turquoise",
     "category": "cartridge",
     "images": [
-      "/images/turkuaz.PNG"
+      "/images/turkuaz.png"
     ],
     "aromas": ["🧊 Ferah Mentol", "🍃 Hafif Tütün", "🌬️ Pürüzsüz"],
     "tr": {
@@ -252,7 +252,7 @@
     "id": "terea-twilight-pearl",
     "category": "cartridge",
     "images": [
-      "/images/twilight.PNG"
+      "/images/twilight.png"
     ],
     "aromas": ["🫐 Yaban Mersini", "❄️ Derin Mentol", "🔘 Pearl Kapsül"],
     "tr": {
@@ -268,7 +268,7 @@
     "id": "terea-sun-pearl",
     "category": "cartridge",
     "images": [
-      "/images/sun.PNG"
+      "/images/sun.png"
     ],
     "aromas": ["🍉 Karpuz", "❄️ Serinletici", "🔘 Pearl Kapsül"],
     "tr": {
@@ -284,7 +284,7 @@
     "id": "terea-abora-pearl",
     "category": "cartridge",
     "images": [
-      "/images/abora.WEBP"
+      "/images/abora.png"
     ],
     "aromas": ["🍏 Yeşil Elma", "❄️ Ferah Mentol", "🔘 Pearl Kapsül"],
     "tr": {
@@ -300,7 +300,7 @@
     "id": "terea-starling-pearl",
     "category": "cartridge",
     "images": [
-      "/images/starling.PNG"
+      "/images/starling.png"
     ],
     "aromas": ["🍓 Çilek", "🌿 Fesleğen", "🔘 Pearl Kapsül"],
     "tr": {
