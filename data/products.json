@@ -3,6 +3,7 @@
     "id": "iluma-prime",
     "category": "device",
     "images": [
+      "/images/iqosilumaprimeyesil.webp",
       "/images/iqosilumaprimeacikmavi.avif",
       "/images/iqosilumaprimebronz.avif",
       "/images/iqosilumaprimesiyah.avif"
@@ -15,6 +16,25 @@
     "en": {
       "name": "IQOS Iluma Prime",
       "description": "Elegant aluminum body, leather details, and revolutionary Smartcore induction technology. No ash, no cleaning."
+    }
+  },
+  {
+    "id": "iluma-i-one",
+    "category": "device",
+    "images": [
+      "/images/iqosilumaionemavi.png",
+      "/images/iqosilumaonesiyah.png",
+      "/images/iqosilumaoneyesil.png",
+      "/images/iqosilumaioneturuncu.png"
+    ],
+    "aromas": ["🔋 20+ Kullanım", "📱 Yeni Nesil Pil", "🚀 Ultra Hafif"],
+    "tr": {
+      "name": "IQOS Iluma i One",
+      "description": "Yenilenmiş pil teknolojisi ve şık tasarımıyla serinin en yeni üyesi. Tek şarjla gün boyu kesintisiz performans ve üstün taşınabilirlik."
+    },
+    "en": {
+      "name": "IQOS Iluma i One",
+      "description": "The newest member of the series with renewed battery technology and sleek design. Continuous all-day performance and superior portability on a single charge."
     }
   },
   {
