@@ -91,7 +91,7 @@
     "id": "terea-teak",
     "category": "cartridge",
     "images": [
-      "/images/tea.PNG"
+      "/images/tea.png"
     ],
     "aromas": ["🌰 Fındık", "🥜 Ceviz", "☕ Kavrulmuş"],
     "tr": {
@@ -219,7 +219,7 @@
     "id": "terea-tidal-pearl",
     "category": "cartridge",
     "images": [
-      "/images/tidal.PNG"
+      "/images/tidal.png"
     ],
     "aromas": ["🍋 Narenciye", "🔘 Pearl Kapsül", "🌊 Taze"],
     "tr": {
@@ -331,7 +331,7 @@
     "id": "terea-oasis-pearl",
     "category": "cartridge",
     "images": [
-      "/images/oas.PNG"
+      "/images/oas.png"
     ],
     "aromas": ["🍍 Tropikal Meyve", "🥥 Egzotik", "🔘 Pearl Kapsül"],
     "tr": {
