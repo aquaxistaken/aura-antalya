@@ -215,22 +215,7 @@
       "description": "A summer breeze feeling with fresh peach aroma and light cooling touches."
     }
   },
-  {
-    "id": "terea-tidal-pearl",
-    "category": "cartridge",
-    "images": [
-       ["/images/tidal.PNG"]
-    ],
-    "aromas": ["🍋 Narenciye", "🔘 Pearl Kapsül", "🌊 Taze"],
-    "tr": {
-      "name": "Terea Tidal Pearl",
-      "description": "Canlandırıcı narenciye aromaları ve ince nüanslara sahip taze bir harman."
-    },
-    "en": {
-      "name": "Terea Tidal Pearl",
-      "description": "A fresh blend with subtle nuances and zesty citrus flavors."
-    }
-  },
+ 
   {
     "id": "terea-turquoise",
     "category": "cartridge",
