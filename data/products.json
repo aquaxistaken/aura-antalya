@@ -108,7 +108,7 @@
     "id": "terea-amber",
     "category": "cartridge",
     "images": [
-      "/images/amber.png"
+      "/images/amber.PNG"
     ],
     "aromas": ["🪵 Odunsu", "🍂 Dengeli", "☕ Kavrulmuş"],
     "tr": {
@@ -124,7 +124,7 @@
     "id": "terea-yellow",
     "category": "cartridge",
     "images": [
-      "/images/yellow.png"
+      "/images/yellow.PNG"
     ],
     "aromas": ["🍋 Narenciye", "🌤️ Hafif İçim", "🍃 Yumuşak"],
     "tr": {
@@ -140,7 +140,7 @@
     "id": "terea-silver",
     "category": "cartridge",
     "images": [
-      "/images/silver.png"
+      "/images/silver.PNG"
     ],
     "aromas": ["☁️ Çok Hafif", "🕊️ Zarif", "✨ Rafine"],
     "tr": {
@@ -156,7 +156,7 @@
     "id": "terea-blue",
     "category": "cartridge",
     "images": [
-      "/images/blue.png"
+      "/images/blue.PNG"
     ],
     "aromas": ["❄️ Ekstra Mentol", "🌿 Yoğun Nane", "🧊 Serinletici"],
     "tr": {
@@ -172,7 +172,7 @@
     "id": "terea-green",
     "category": "cartridge",
     "images": [
-      "/images/green.png"
+      "/images/green.PNG"
     ],
     "aromas": ["🌿 Nane", "🍃 Dengeli", "❄️ Serinletici"],
     "tr": {
@@ -188,7 +188,7 @@
     "id": "terea-purple",
     "category": "cartridge",
     "images": [
-      "/images/purple.png"
+      "/images/purple.PNG"
     ],
     "aromas": ["🫐 Orman Meyvesi", "❄️ Mentol", "🍇 Tatlı"],
     "tr": {
@@ -220,7 +220,7 @@
     "id": "terea-tidal-pearl",
     "category": "cartridge",
     "images": [
-      "/images/tıdal.png"
+      "/images/tıdal.PNG"
     ],
     "aromas": ["🍋 Narenciye", "🔘 Pearl Kapsül", "🌊 Taze"],
     "tr": {
@@ -236,7 +236,7 @@
     "id": "terea-turquoise",
     "category": "cartridge",
     "images": [
-      "/images/turkuaz.png"
+      "/images/turkuaz.PNG"
     ],
     "aromas": ["🧊 Ferah Mentol", "🍃 Hafif Tütün", "🌬️ Pürüzsüz"],
     "tr": {
@@ -252,7 +252,7 @@
     "id": "terea-twilight-pearl",
     "category": "cartridge",
     "images": [
-      "/images/twilight.png"
+      "/images/twilight.PNG"
     ],
     "aromas": ["🫐 Yaban Mersini", "❄️ Derin Mentol", "🔘 Pearl Kapsül"],
     "tr": {
@@ -268,7 +268,7 @@
     "id": "terea-sun-pearl",
     "category": "cartridge",
     "images": [
-      "/images/sun.png"
+      "/images/sun.PNG"
     ],
     "aromas": ["🍉 Karpuz", "❄️ Serinletici", "🔘 Pearl Kapsül"],
     "tr": {
@@ -300,7 +300,7 @@
     "id": "terea-starling-pearl",
     "category": "cartridge",
     "images": [
-      "/images/starling.png"
+      "/images/starling.PNG"
     ],
     "aromas": ["🍓 Çilek", "🌿 Fesleğen", "🔘 Pearl Kapsül"],
     "tr": {

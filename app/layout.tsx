@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google"; // İstersen premium bir font ile değiştireceğiz
 import "./globals.css";
+import LanguageToggle from "@/components/LanguageToggle"; // veya "../components/LanguageToggle"
 
 // 1. Az önce oluşturduğumuz Provider'ı içeri aktarıyoruz
 import { LanguageProvider } from "../context/LanguageContext"; 

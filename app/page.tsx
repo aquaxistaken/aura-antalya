@@ -3,10 +3,11 @@ import TrustBar from "@/components/TrustBar";
 import ProductGallery from "@/components/ProductGallery";
 import Footer from "@/components/Footer";
 import WhatsAppContact from "@/components/FloatingWhatsApp";
+import LanguageToggle from "@/components/LanguageToggle";
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-black">
+    <main className="relative min-h-screen bg-black">
       {/* 1. Slayt Alanı */}
       <Hero />
       
@@ -21,7 +22,10 @@ export default function Home() {
       {/* 4. Alt Bilgi */}
       <Footer />
       
-      {/* 5. WhatsApp İletişim */}
+      {/* 5. Dil Değiştirme Butonu (Sahneye eklendi!) */}
+      <LanguageToggle />
+
+      {/* 6. WhatsApp İletişim */}
       <WhatsAppContact />
     </main>
   );
