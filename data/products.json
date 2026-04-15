@@ -22,10 +22,10 @@
     "id": "iluma-i-one",
     "category": "device",
     "images": [
-      "/images/iqosilumaionemavi.png",
-      "/images/iqosilumaonesiyah.png",
-      "/images/iqosilumaoneyesil.png",
-      "/images/iqosilumaioneturuncu.png"
+      "/images/iqosilumaionemavi.PNG",
+      "/images/iqosilumaionesiyah.PNG",
+      "/images/iqosilumaioneturuncu.PNG",
+      "/images/iqosilumaioneyesil.PNG"
     ],
     "aromas": ["🔋 20+ Kullanım", "📱 Yeni Nesil Pil", "🚀 Ultra Hafif"],
     "tr": {
