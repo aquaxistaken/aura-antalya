@@ -219,7 +219,7 @@
     "id": "terea-tidal-pearl",
     "category": "cartridge",
     "images": [
-      "/images/tıdal.png"
+       ["/images/tidal.PNG"]
     ],
     "aromas": ["🍋 Narenciye", "🔘 Pearl Kapsül", "🌊 Taze"],
     "tr": {
